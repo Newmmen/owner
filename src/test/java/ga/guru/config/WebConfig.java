@@ -11,13 +11,15 @@ public interface WebConfig extends Config {
 
     @Key("selenide.remote")
     String getSelenoidUrl();
+
     @Key("isRemote")
     Boolean isRemote();
+
     @Key("browser.version")
     String getBrowserVersion();
+
     @Key("browser.name")
     String getBrowserName();
-
 
 
 }
